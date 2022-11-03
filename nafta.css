@@ -1,0 +1,29 @@
+html,
+body 
+{
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #5858a7, #4f362b);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.itemy{
+      border: 2px solid red;
+      margin: 20px;
+
+}
+table{
+      margin-top: 50px;
+
+}
+img{
+    height: 400px;
+    width: 1000px;
+    border-radius: 15%;
+}
+
