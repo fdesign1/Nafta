@@ -7,34 +7,91 @@
         <title>Nafta</title>
     </head>
     <!-- nav    ---------------------------------------------------------------------------------------------------------------->
-    <nav>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
-        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">FORD KA 1.3</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Especificaciones tecnicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Manual</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Datos curiosos</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mas</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pagina oficial</a></li>
+                <li><a class="dropdown-item" href="#">Precio del coche</a></li>
+                <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-    </div>
       <!-- contenedor de imagen ford ka y titulo--------------------------------------------------------------------------------------------->
       <div class="container">
-        <div class="itemy">
-        <img src="https://motofilm.pl/wp-content/uploads/2015/01/Ford-Ka-BW-Edition-1.jpg" class="ford">
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://d-art.ppstatic.pl/kadry/k/r/1/33/04/62568e8b3ab5c_o_full.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Ford KA 1.3</h3>
+        <p>Un auto que va!</p>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ytimg.com/vi/eig1mSr7E2o/maxresdefault.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Potencia</h3>
+        <p>1300cc</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="https://parkers-images.bauersecure.com/gallery-image/wp-images/2617/static-exterior/1752x1168/img_7705.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>A donde sea llegas</h3>
+        <p>5 cambios, 180km/h</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
         <div class="itemy">
-            <h1>Calcula el precio <span class="badge bg-secondary">!</span></h1>
+            <h1>Calcula el precio del viaje<span class="badge bg-secondary">!</span></h1>
         </div>
         <div class="btn1">
           <button type="button" class="btn btn-success" onclick="myFunction()">Click aqui para saber el consumo</button>
          </div>
       </div>
    <!-- contenedor de imagen ford ka y titulo--------------------------------------------------------------------------------------------->
-
-<!-- TABLA ----------------------------------------------------------------------------------------------------------------------------------->
-<div>
+   <!-- TABLA ----------------------------------------------------------------------------------------------------------------------------------->
+   <h4>Tabla de valores</h4>
 <table class="table table-sm table-hover table-dark">
     <thead>
       <tr>
@@ -70,7 +127,17 @@
       </tr>
     </tbody>
   </table>
-</div>
     </body>
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">SITIO WEB- Hecho por Mati</h1>
+            
+        <h2>E-mail</h2>
+        
+        <address>
+        matiasferreras33@gmail.com <br>
+        
+    </footer>
+    <script src="jquery-3.6.1.min.js"></script>
      <script src="natfa.js"></script>
 </html>

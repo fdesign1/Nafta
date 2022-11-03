@@ -13,14 +13,37 @@ body
     align-items: center;
 }
 .itemy{
-      border: 2px solid red;
       margin: 20px;
 }
 table{
       margin-top: 50px;
 }
-img{
-    height: 600px;
-    width: 900px;
+#demo{
+    margin-top: 40px;
 }
 
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #ffffff;
+    background-color: rgb(45, 40, 40);
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  
