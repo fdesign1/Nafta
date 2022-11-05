@@ -21,7 +21,8 @@ table{
     margin-top: 40px;
 }
 footer{
-  display: block;
+  position: absolute;
+  bottom: 0;
 }
   
   
