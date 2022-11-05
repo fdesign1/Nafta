@@ -2,8 +2,7 @@ html,
 body 
 {
     background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #5858a7, #4f362b);
+    background: linear-gradient(to right, #3d3d40, #000000);
     font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -16,34 +15,11 @@ body
       margin: 20px;
 }
 table{
-      margin-top: 50px;
+      margin-top: 10px;
 }
 #demo{
     margin-top: 40px;
 }
 
-.footer {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 30px 30px 20px 30px;
-    color: #ffffff;
-    background-color: rgb(45, 40, 40);
-  }
-  
-  .footer > * {
-    flex:  1 100%;
-  }
-  
-  .footer__addr {
-    margin-right: 1.25em;
-    margin-bottom: 2em;
-  }
-  
-  .footer__logo {
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-    text-transform: lowercase;
-    font-size: 1.5rem;
-  }
   
   

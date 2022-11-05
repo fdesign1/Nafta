@@ -12,7 +12,7 @@ const myFunction = () =>{
     }
     //distancia>>>>>>>>>>>>>>>>>>>>>
     var Distance= prompt('Que distancia vas a recorrer?')
-    var Consumo = 70;
+    var Consumo = 0.7;
     
     if (Distance >= 0){
         document.getElementById('ConsumoTable').innerHTML =`A esa distancia consumira: ${Distance / Consumo} Litros`
@@ -22,7 +22,22 @@ const myFunction = () =>{
         document.getElementById('ConsumoTable').innerHTML ='el valor que ingresaste es incorrecto'
         document.getElementById('DistanciaRec').innerHTML =`${Distance} PLN`
     }
+  
+    //Kilometraje
+    var CambioAceite = 132299;
+  var Kmactual = prompt('Cuantos km tiene el auto actualmente');
+  if (Kmactual >= 0){
+document.getElementById('Total').innerHTML = `haz recorrido:${Kmactual - CambioAceite} kms`}
+else {
+    document.getElementById('Total').innerHTML =`No sabe`
 }
+  }
+
+
+
+  
+
+
 
 
 

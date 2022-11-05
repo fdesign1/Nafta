@@ -51,21 +51,21 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://d-art.ppstatic.pl/kadry/k/r/1/33/04/62568e8b3ab5c_o_full.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <img src="fordka1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
       <div class="carousel-caption">
         <h3>Ford KA 1.3</h3>
         <p>Un auto que va!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://i.ytimg.com/vi/eig1mSr7E2o/maxresdefault.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <img src="fordka2.jpg" alt="Chicago" class="d-block" style="width:100%">
       <div class="carousel-caption">
         <h3>Potencia</h3>
         <p>1300cc</p>
       </div> 
     </div>
     <div class="carousel-item">
-      <img src="https://parkers-images.bauersecure.com/gallery-image/wp-images/2617/static-exterior/1752x1168/img_7705.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="fordka3.jpg" alt="New York" class="d-block" style="width:100%">
       <div class="carousel-caption">
         <h3>A donde sea llegas</h3>
         <p>5 cambios, 180km/h</p>
@@ -83,15 +83,15 @@
 </div>
 
         <div class="itemy">
-            <h1>Calcula el precio del viaje<span class="badge bg-secondary">!</span></h1>
+            <h1 class="text-light">Calcula el precio del viaje</h1>
         </div>
         <div class="btn1">
-          <button type="button" class="btn btn-success" onclick="myFunction()">Click aqui para saber el consumo</button>
+          <button type="button" class="btn btn-primary" onclick="myFunction()">Click aqui para saber el consumo</button>
          </div>
       </div>
    <!-- contenedor de imagen ford ka y titulo--------------------------------------------------------------------------------------------->
    <!-- TABLA ----------------------------------------------------------------------------------------------------------------------------------->
-   <h4>Tabla de valores</h4>
+   <h3 class="text-info">Tabla</h3>
 <table class="table table-sm table-hover table-dark">
     <thead>
       <tr>
@@ -100,9 +100,10 @@
         <th scope="col">Consumo (Litros)</th>
         <th scope="col">Distancia a recorrer</th>
         <th scope="col">Combustible repostado</th>
-        <th scope="col">Kilometraje</th>
-        <th scope="col">Cambio Aceite</th>
-        <th scope="col">Fecha</th>
+        <th class ="KmActual" scope="col">Kilometraje Actual</th>
+        <th class ="CambioAceite"scope="col">Cambio Aceite</th>
+        <th scope="col">Km Recorridos/ Aceite</th>
+        <th scope="col">Prox. Cambio</th>
       </tr>
     </thead>
     <tbody>
@@ -112,32 +113,76 @@
         <td id="ConsumoTable">-</td>
         <td id="DistanciaRec">-</td>
         <td id="CombustibleRep">-</td>
-        <td>Verificar</td>
+        <td>-</td>
         <td>132299 km</td>
-        <td>22-6-2022</td>
+        <td id="Total">-</td>
+        <td id="ProxCambio">-</td>
+      
       </tr>
       <tr>
-        <th scope="row">N/A</th>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
-        <td>n/a</td>
+        <th scope="row">Fecha cambio Aceite</th>
+        <th>22-6-2022</th>
+        <th>n/a</th>
+        <th>n/a</th>
+        <th>n/a</th>
+        <th>n/a</th>
+        <th>n/a</th>
+        <th>n/a</th>
+        <th>n/a</th>
       </tr>
     </tbody>
   </table>
     </body>
-    <footer class="footer">
-      <div class="footer__addr">
-        <h1 class="footer__logo">SITIO WEB- Hecho por Mati</h1>
-            
-        <h2>E-mail</h2>
-        
-        <address>
-        matiasferreras33@gmail.com <br>
-        
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example29" class="form-control" />
+                  <label class="form-label" for="form5Example29">Email address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subcribite
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="">matiasferreras33@gmail.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
+
     <script src="jquery-3.6.1.min.js"></script>
      <script src="natfa.js"></script>
 </html>
