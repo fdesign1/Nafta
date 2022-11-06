@@ -12,10 +12,10 @@ const myFunction = () =>{
     }
     //distancia>>>>>>>>>>>>>>>>>>>>>
     var Distance= prompt('Que distancia vas a recorrer?')
-    var Consumo = 0.7;
+    var Consumo = [6, 2, 3];
     
     if (Distance >= 0){
-        document.getElementById('ConsumoTable').innerHTML =`A esa distancia consumira: ${Distance / Consumo} Litros`
+        document.getElementById('ConsumoTable').innerHTML =`A esa distancia consumira: ${(Distance * Consumo[0]) / 100} Litros`
         document.getElementById('DistanciaRec').innerHTML =`${Distance} Km`
     }
     else{
