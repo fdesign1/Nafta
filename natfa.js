@@ -28,10 +28,13 @@ const myFunction = () =>{
   var Kmactual = prompt('Cuantos km tiene el auto actualmente');
   if (Kmactual >= 0){
 document.getElementById('Total').innerHTML = `haz recorrido:${Kmactual - CambioAceite} kms`}
+
 else {
     document.getElementById('Total').innerHTML =`No sabe`
 }
+document.getElementById('KmActuals').innerHTML = Kmactual;
   }
+
 
 
 

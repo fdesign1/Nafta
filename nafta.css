@@ -1,9 +1,18 @@
-
+html{
+    height: 100%;
+}
 body
 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     background: #4568DC;
     background: linear-gradient(to right, #3d3d40, #000000);
     font-family: 'Roboto', sans-serif;
+}
+.navegacion{
+    display: flex;
+    flex-direction: column;
 }
 .container{
     margin-top: 40px;
@@ -16,8 +25,22 @@ body
 .itemy{
       margin: 20px;
 }
-table{
-      margin-top: 10px;
-}
+.tablita{
 
+}
+@media screen and (min-width: 400px){
+.footer{
+    background-color: rgb(69, 69, 69);
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 50px;
+
+}
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
     
