@@ -1,7 +1,7 @@
 const myFunction = () =>{
     var Litros = prompt('Cuantos Litros de combustible repostaste?');
-    //Modificar precio aquí
-    var Precio = 6.75;
+
+    var Precio = prompt('Ingresa el precio del combustible por Litro');
     if  (Litros >= 0){
         document.getElementById('GastoTable').innerHTML = `Gastaste: ${Litros*Precio} Zlotys`
         document.getElementById('CombustibleRep').innerHTML =`${Litros} Litros`
@@ -12,10 +12,8 @@ const myFunction = () =>{
     }
     //distancia>>>>>>>>>>>>>>>>>>>>>
     var Distance= prompt('Que distancia vas a recorrer?')
-    var Consumo = [6, 2, 3];
-    
     if (Distance >= 0){
-        document.getElementById('ConsumoTable').innerHTML =`A esa distancia consumira: ${(Distance * Consumo[0]) / 100} Litros`
+        document.getElementById('ConsumoTable').innerHTML =`A esa distancia consumira: ${(Distance * Precio) / 100} Litros`
         document.getElementById('DistanciaRec').innerHTML =`${Distance} Km`
     }
     else{
@@ -34,8 +32,6 @@ else {
 }
 document.getElementById('KmActuals').innerHTML = Kmactual;
   }
-
-
 
 
   
