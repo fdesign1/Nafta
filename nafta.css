@@ -10,6 +10,11 @@ body
     background: linear-gradient(to right, #3d3d40, #000000);
     font-family: 'Roboto', sans-serif;
 }
+h1{
+ color: aliceblue;
+ font-size: 10px;
+ 
+}
 .navegacion{
     display: flex;
     flex-direction: column;
@@ -20,13 +25,9 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 .itemy{
       margin: 20px;
-}
-.tablita{
-
 }
 @media screen and (min-width: 400px){
 .footer{
@@ -48,3 +49,7 @@ body
         flex-direction: column;
 
     }
+    .manual{
+        text-align: center;
+    }
+
