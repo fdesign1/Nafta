@@ -20,7 +20,7 @@
                 <a class="nav-link" href="#">Especificaciones tecnicas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Manual</a>
+                <a class="nav-link" href="#m1">Manuales</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Datos curiosos</a>
@@ -96,8 +96,9 @@
 <table class="table table-responsive-md table-hover table-dark">
     <thead>
       <tr>
-        <th scope="col">Modelos Auto</th>
+        <th scope="col">Descripcion</th>
         <th scope="col">Gastaste</th>
+        <th scope="col">Gasto segun Km.</th>
         <th scope="col">Consumo (Litros)</th>
         <th scope="col">Distancia a recorrer</th>
         <th scope="col">Combustible repostado</th>
@@ -111,6 +112,7 @@
       <tr>
         <th scope="row">Ford ka 1.3 Naftero</th>
         <td id="GastoTable">-</td>
+        <td id="GastoKm">-</td>
         <td id="ConsumoTable">-</td>
         <td id="DistanciaRec">-</td>
         <td id="CombustibleRep">-</td>
@@ -121,7 +123,8 @@
       </tr>
       <tr>
         <th scope="row">Fecha cambio Aceite</th>
-        <th>22-6-2022</th>
+        <th>22.6.22</th>
+        <th>n/a</th>
         <th>n/a</th>
         <th>n/a</th>
         <th>n/a</th>
@@ -134,8 +137,12 @@
   </table>
 </div>
 </div>
+<form id="Kmetraje">
+  Kilometraje :<input type="number" name="Kilometraje">
+  <button>Aceptar</button>
+</form>
 <div class="manual">
-  <h1> Manual </h1>
+  <h1 id="m1"> Manual de Mecanica</h1>
   <embed src="./kamanual.pdf" type="application/pdf" width="50%" height="600px" />
 </div>
 <div class="footer">
