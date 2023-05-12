@@ -23,7 +23,7 @@ const myFunction = () =>{
   var Kmactual = prompt('Cuantos km tiene el auto actualmente');   //Pregunta acerca del Kilometraje
   if (Kmactual > 0){
 document.getElementById('KmActuals').innerHTML = Kmactual; //pone los Km actuales en la tabla html
-document.getElementById('Total').innerHTML = `haz recorrido:${Kmactual - CambioAceite} kms`} //Total de Km recorridos
+document.getElementById('ProxCambio').innerHTML = `Cambiar Aceite en :${Kmactual - CambioAceite} kms`} //Total de Km recorridos
 else {
     document.getElementById('KmActuals').innerHTML =`El valor q ingresaste es incorrecto`
 }
