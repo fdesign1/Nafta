@@ -36,11 +36,7 @@ h1{
     text-align: center;
 }
 table{
-    height: 500px;
+    height: 1000px;
 }
 
-@media (min-width: 1200px){
-    table{
-        height: 1000px;
-    }
-}
+
