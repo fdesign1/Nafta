@@ -36,6 +36,7 @@ h1{
     text-align: center;
 }
 table{
+    table-layout: fixed;
     height: 1000px;
 }
 
