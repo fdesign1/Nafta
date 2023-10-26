@@ -15,17 +15,8 @@ h1{
  font-size: 10px;
  
 }
-.navegacion{
-    display: flex;
-    flex-direction: column;
-}
-.container{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .itemy{
       margin: 20px;
 }
@@ -44,15 +35,4 @@ h1{
     color: white;
     text-align: center;
 }
-    form{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .manual{
-        text-align: center;
-    }
-#Kmetraje{
-    width: 100px;
-
-}
+  
