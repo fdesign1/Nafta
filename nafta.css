@@ -35,4 +35,12 @@ h1{
     color: white;
     text-align: center;
 }
-  
+table{
+    height: 500px;
+}
+
+@media (min-width: 768px){
+    table{
+        height: 1000px;
+    }
+}
