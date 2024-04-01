@@ -16,6 +16,11 @@ h1{
  
 }
 
+h3{
+
+text-align: center;
+
+}
 
 .itemy{
       margin: 20px;
@@ -31,12 +36,7 @@ h1{
 
 }
 }
-.footer p{
-    color: white;
-    text-align: center;
-}
+
 table{
     height: 1000px;
 }
-
-
